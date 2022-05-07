@@ -1,0 +1,86 @@
+/* Styling the ADVICE GENERATOR */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+
+:root{
+    /* Colores */
+    --clr-verde: hsl(150, 100%, 66%);
+    --clr-grisClaro: hsl(193, 38%, 86%);
+    --clr-grisMid: hsl(217, 19%, 38%);
+    --clr-card: hsl(217, 19%, 24%);
+    --clr-grisOsc: hsl(218, 23%, 16%);
+    /* Tamaño fuente */
+    --fs-normal: 28px;
+    /* Fuente: Family y grosor */
+    --font-family: 'Manrope', sans-serif;;
+    --fw-advice:  800;
+
+}
+
+.bg{
+    background-color: var(--clr-grisOsc);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 375px;
+    background-color: var(--clr-card);
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: var(--fw-advice);
+}
+
+.adv_Title{
+    color: var(--clr-verde);
+    letter-spacing: 1.75px;
+}
+
+.advContainer > p {
+    color: var(--clr-grisClaro);
+    font-size: var(--fs-normal);
+    width: 80%;
+    margin: 0 auto;
+    font-weight: var(--fw-advice);
+    text-align: center;
+}
+
+.btnAdv{
+    position: absolute;
+    bottom: -25px;
+    background-color: var(--clr-verde);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btnAdv:hover{
+    color: rgb(82, 255, 168, 1);
+    box-shadow: 0px 0px 15px 15px rgb(82, 255, 168, 0.65);
+}
+
+
+@media screen and (min-width:375px){
+
+}
+
+@media screen and (min-width:1440px){
+    
+}
